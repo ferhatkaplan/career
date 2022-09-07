@@ -1,0 +1,67 @@
+/*
+project name: Career
+project date: 07.09.2022
+project author: Ferhat Kaplan
+project version: v.1
+*/
+
+
+/* Common Group Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'sans-serif';
+    background-color: #bfba9f;
+}
+
+html {
+    font-size: 15px;
+}
+
+UL {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-left: .8rem;
+    margin-right: .8rem;
+    text-align: justify;
+}
+
+.my_clear::before {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* line-clamp --->(satır sayısı ile alakalı)<--- */
+
+.line_clamp4 {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.line_clamp6 {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
